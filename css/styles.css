@@ -390,12 +390,12 @@ nav h1 a {
 }
 
 #reviews-container {
-  width: 60%;
+  width: 90%;
   padding-bottom: 0;
 }
 
 #restaurant-container {
-  width: 40%;
+  width: 100%;
 }
 
 #reviews-container h2 {
