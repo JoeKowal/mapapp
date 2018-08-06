@@ -97,16 +97,15 @@ section {
 
 @media screen and (max-width: 1000px) {
   #restaurant-container {
-    width: 45%;
+    width: 50%;
   }
   #reviews-container {
-    width: 55%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 950px) {
   #restaurants-list li {
-    /* width: 320px; */
     width: 300px;
   }
 }
@@ -131,17 +130,21 @@ section {
     padding: 10px;
     width: 100%;
   }
+
   .filter-options {
     flex-direction: column;
     padding-top: 15px;
   }
+
   #restaurant-container,
   #reviews-container {
     width: inherit;
   }
+
   #restaurant-name {
     margin: 5px 0 10px;
   }
+  
   #reviews-container h2 {
     margin: 0 0 10px;
   }
@@ -268,6 +271,12 @@ nav h1 a {
   margin: 10px;
   padding: 0 10px;
   width: 200px;
+}
+
+/*for screen readers*/
+.filter-options label {
+  width: 0;
+  overflow: hidden;
 }
 
 /* ====================== Restaurant Listing ====================== */
