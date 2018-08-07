@@ -2,14 +2,11 @@
 
 var CACHE_NAME = "my-site-cache-v1";
 var urlsToCache = [
-  "/",
   "/css/styles.css",
   "/js/main.js",
   "/js/dbhelper.js",
   "/js/restaurant_info.js",
-  "/img/",
   "/index.html",
-  "/restaurant.html",
   "/restaurant.html?id=1",
   "/restaurant.html?id=2",
   "/restaurant.html?id=3",
