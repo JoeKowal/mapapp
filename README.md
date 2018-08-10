@@ -14,16 +14,10 @@ Clicking on the "View Details" button will display a photograph, the hours of op
 
 Choose a restaurant to dine at, follow the map for direction, and enjoy your meal!
 
- 
-
-
 
 ### Author
 
 **Joe Kowal**
-
-
-
 
 
 
